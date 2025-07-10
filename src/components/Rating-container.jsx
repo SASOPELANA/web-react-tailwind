@@ -10,7 +10,7 @@ export const RatingContainer = () => {
 	return (
 		<section>
 			{ratings.map((rating) => {
-				return <RatingCard text={rating} />;
+				return <RatingCard key={rating} text={rating} />;
 			})}
 		</section>
 	);
