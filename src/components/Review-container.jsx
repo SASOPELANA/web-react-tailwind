@@ -25,14 +25,14 @@ const reviews = [
 		imgUrl: CarlosImg,
 		buyerType: "Verificado",
 		review:
-			"El envío fue muy rápido y el artículo es tal como se describe. Muy satisfecho.",
+			"El envío fue muy rápido y el artículo es tal como se describe. Muy satisfecho. 😀",
 	},
 	{
 		id: 4,
 		name: "Ana Martínez",
 		imgUrl: AnaImg,
 		buyerType: "Verificado",
-		review: "Buena relación calidad-precio. Funciona perfectamente.",
+		review: "Buena relación calidad-precio. Funciona perfectamente. 😎",
 	},
 ];
 

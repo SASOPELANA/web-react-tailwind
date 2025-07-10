@@ -5,8 +5,11 @@ import { ReviewContainer } from "./components/Review-container.jsx";
 
 function App() {
 	return (
-		<main>
-			<h1>React desde cero + Tailwindcss</h1>
+		// Aqui se usa la fuente con Tailwindcss
+		<main className="font-League-Spartan px-6 py-20 ">
+			<h className="flex justify-center text-center text-3xl font-semibold">
+				React + Tailwindcss
+			</h>
 			<Hero />
 			<RatingContainer />
 			<ReviewContainer />
