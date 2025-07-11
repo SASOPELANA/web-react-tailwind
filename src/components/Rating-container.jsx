@@ -8,7 +8,7 @@ const ratings = [
 
 export const RatingContainer = () => {
 	return (
-		<section>
+		<section className="flex flex-col gap-4">
 			{ratings.map((rating) => {
 				return <RatingCard key={rating} text={rating} />;
 			})}

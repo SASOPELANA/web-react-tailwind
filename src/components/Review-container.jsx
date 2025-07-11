@@ -7,38 +7,38 @@ import AnaImg from "../assets/ana-martinez.webp";
 const reviews = [
 	{
 		id: 1,
-		name: "Juan Perez",
+		name: "Juan Ignacio Perez",
 		imgUrl: JuanImg,
-		buyerType: "Verificado",
+		buyerType: "Usuario Verificado",
 		review: "¡Excelente producto! Cumplió con todas mis expectativas. 👍",
 	},
 	{
 		id: 2,
-		name: "María García",
+		name: "María Angeles García",
 		imgUrl: MariaImg,
-		buyerType: "Verificado",
+		buyerType: "Usuario Verificado",
 		review: "Me encantó la calidad y el diseño. Lo recomiendo totalmente. 😉",
 	},
 	{
 		id: 3,
-		name: "Carlos Rodríguez",
+		name: "Carlos Duran Rodríguez",
 		imgUrl: CarlosImg,
-		buyerType: "Verificado",
+		buyerType: "Usuario Verificado",
 		review:
 			"El envío fue muy rápido y el artículo es tal como se describe. Muy satisfecho. 😀",
 	},
 	{
 		id: 4,
-		name: "Ana Martínez",
+		name: "Ana Tamara Martínez",
 		imgUrl: AnaImg,
-		buyerType: "Verificado",
+		buyerType: "Usuario Verificado",
 		review: "Buena relación calidad-precio. Funciona perfectamente. 😎",
 	},
 ];
 
 export const ReviewContainer = () => {
 	return (
-		<div>
+		<div className="flex flex-col gap-4">
 			{reviews.map(({ id, name, buyerType, review, imgUrl }) => {
 				return (
 					<ReviewCard
