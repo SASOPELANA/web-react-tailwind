@@ -1,6 +1,9 @@
-export const ReviewCard = ({ name, imgUrl, buyerType, review }) => {
+export const ReviewCard = ({ name, imgUrl, buyerType, review, className }) => {
 	return (
-		<div className="bg-Very-Dark-Magenta rounded-lg text-Light-Grayish-Magenta px-8 pt-10 pb-8">
+		<div
+			className={`bg-Very-Dark-Magenta rounded-lg text-Light-Grayish-Magenta px-8 pt-10 pb-8
+        xl:w-[350px] xl:h-[234px] ${className}`}
+		>
 			<div className="flex gap-6 mb-6">
 				<img src={imgUrl} className="size-10 rounded-full" />
 
@@ -10,7 +13,7 @@ export const ReviewCard = ({ name, imgUrl, buyerType, review }) => {
 				</div>
 			</div>
 
-			<p className="font-medium text-pretty">{review}</p>
+			<p className="font-medium text-pretty xl:text-[15px]">{review}</p>
 		</div>
 	);
 };

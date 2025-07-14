@@ -7,10 +7,22 @@ const ratings = [
 ];
 
 export const RatingContainer = () => {
+	const positionClases = [
+		"xl: place self-start",
+		"xl: place-self-center",
+		"xl: place-self-end",
+	];
+
 	return (
-		<section className="flex flex-col gap-4">
-			{ratings.map((rating) => {
-				return <RatingCard key={rating} text={rating} />;
+		<section className="flex flex-col gap-4 xl:w-[540px] xl:justify-center">
+			{ratings.map((rating, index) => {
+				return (
+					<RatingCard
+						key={rating}
+						text={rating}
+						className={positionClases[index]}
+					/>
+				);
 			})}
 		</section>
 	);
