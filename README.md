@@ -130,27 +130,6 @@ dist/
 
 ---
 
-## 🧠 Tips extra
-
-- Podés enlazar el proyecto con Vercel manualmente:
-  ```bash
-  vercel link
-  ```
-- Luego de eso, el CLI recordará el proyecto para futuros despliegues.
-
----
-
-## 📤 Hosting gratuito gracias a Vercel
-
-Creá una cuenta en [https://vercel.com](https://pagina-react-tailwind.vercel.app/), y subí tus proyectos en segundos.
-
----
-
 ## 🧑‍💻 Autor
 
-Hecho con teclado mecánico y mate por [Sergio Devs].
-
-
-
-
-
+Hecho por el programapor [Sergio Devs].
