@@ -4,6 +4,10 @@ Este proyecto está construido con **React** y estilizado con **Tailwind CSS**, 
 
 ---
 
+<img src="./public/web-react.webp" alt="Deploy Vercel" />
+
+---
+
 ## 🚀 Tecnologías
 
 - ⚛️ React
