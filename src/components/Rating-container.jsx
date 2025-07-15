@@ -8,9 +8,9 @@ const ratings = [
 
 export const RatingContainer = () => {
 	const positionClases = [
-		"xl: place self-start",
-		"xl: place-self-center",
-		"xl: place-self-end",
+		"xl:place-self-start",
+		"xl:place-self-center",
+		"xl:place-self-end",
 	];
 
 	return (
