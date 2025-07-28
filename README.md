@@ -132,4 +132,4 @@ dist/
 
 ## 🧑‍💻 Autor
 
-Hecho por el programapor [Sergio Devs].
+Hecho por el programapor [SergioDev](https://portafolio-web-tl1w.vercel.app).
